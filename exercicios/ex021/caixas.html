@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(87, 87, 81);
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        nav{
+            text-align: center;
+            background-color: rgb(105, 104, 104);
+            padding: 5px;
+            box-shadow: 1px 1px 1px black;
+            border-radius: 22px;
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: red;
+            text-align: center;
+            margin-right: 40px;
+        }
+        nav>a:hover{
+            color: rgb(51, 48, 48);
+          
+        }
+            
+        
+        main{
+            background-color: white;
+            padding: 5px;
+            margin-top: 20px;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px black;
+        }
+        header{
+            
+        }
+        div{
+            background-color: rgba(156, 156, 154, 0.521);
+            margin: 10px;
+            margin-top: 20px;
+          
+        }
+       h2{
+        text-align: center;
+       }
+       p#texto{ text-indent: 15px;
+        margin: 10px;
+
+       }
+
+       div > div#artigos{
+        margin: 0%;
+      
+        text-align: center;  
+       }
+       div#rodape{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        margin-top: 20px;
+
+       }
+           
+       
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div>
+        <h2>Esportes políticas e tecnologias</h2>
+        <P id="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, expedita sapiente qui odit est id, harum, quasi laboriosam libero magni sed excepturi ipsam provident quos. Nostrum consequuntur nobis officia eveniet.</P>
+            <div id="artigos">
+                <p>artigo escrito por José da Silva</p>
+
+            </div>
+      </div>
+      <div id="rodape">
+        Desenvolvido pelo Curso em Video
+
+      </div>
+
+    </main>
+    
+</body>
+</html>

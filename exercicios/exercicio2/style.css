@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= EB+ Garamond :ital,wght@0,400;0,500;1,400;1,500 & display=swap');
+body{background-color: rgba(154, 231, 231, 0.842);
+
+}
+h1{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 3em;
+    background-color: black;
+    color: white;
+}
+h2{
+    color: rgba(1, 49, 49, 0.842);
+    font-size: 2em;
+    text-align: center;
+    im    
+}
+p{
+    text-justify: ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+p#imagem{
+    text-align: center;
+}
+h2#listas{
+    font-size: 19px;
+    
+}
+div:hover {
+    color: brown;
+}
